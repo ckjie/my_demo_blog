@@ -1,0 +1,27 @@
+[
+  {
+    "name": "js深浅拷贝",
+    "imgSrc": "/static/assets/2.jpg",
+    "content": "不同特殊对象的构造函数就是特殊对象本身, 一般对象的构造函数都是 ObjectPersion 是一个函数, 所以它的构造函数就是 Functionobj 是一个普通对象, 所以构造函数是 Objectarr 是一个数组对象, 所以构造函数是 Array除了 Function.prototype 是函数, 其他的函数对象的显示原型都为对象所有的内置构造器隐式原型(包括 Object 和 Function 本身)都指向 Function.prototype"
+  },
+  {
+    "name": "js原型",
+    "imgSrc": "/static/assets/prototype.png",
+    "content": "什么是深浅拷贝：深浅拷贝的基本概念就是对于栈和堆的复制过程,而基本数据类型都是存在于栈中的,也就不存在浅拷贝一说了. 所以深浅拷贝主要是用来对对象的操作.浅拷贝 :对于对象, 栈中的变量存储的是对象在堆中存放数据的地址.浅拷贝实际上就是又在栈中生成了一个新的变量, 但是这个变量保存的数据也是指向堆中对象的地址,并没有再开辟一个新的堆空间, 所以当操作堆中数据时, 两个变量的引用都会发生更改, 所以叫浅拷贝"
+  },
+  {
+    "name": "js数组去重",
+    "imgSrc": "/static/assets/99.jpeg",
+    "content": "一、双for循环第二个for循环每次循环新数组中的元素是否和当前的原数组元素相等, 相等就直接退出了for循环, 不相等则会进入if语句添加到新数组function array1(arr1) {let arr2 = [arr1[0]]for (let i=1; "
+  },
+  {
+    "name": "js数组去重",
+    "imgSrc": "/static/assets/99.jpeg",
+    "content": "一、双for循环第二个for循环每次循环新数组中的元素是否和当前的原数组元素相等, 相等就直接退出了for循环, 不相等则会进入if语句添加到新数组function array1(arr1) {let arr2 = [arr1[0]]for (let i=1; "
+  },
+  {
+    "name": "js数组去重",
+    "imgSrc": "/static/assets/99.jpeg",
+    "content": "一、双for循环第二个for循环每次循环新数组中的元素是否和当前的原数组元素相等, 相等就直接退出了for循环, 不相等则会进入if语句添加到新数组function array1(arr1) {let arr2 = [arr1[0]]for (let i=1; "
+  }
+]
